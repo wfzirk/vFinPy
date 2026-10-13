@@ -1,0 +1,23 @@
+2026-10-04 17:02:28,491 | INFO | categories.py(228) ['2026-08-01', '2026-12-31']
+2026-10-04 17:02:28,549 | INFO | categories.py(477) _aggregate_data
+2026-10-04 17:02:28,549 | INFO | categories.py(464) SELECT Date, Alias, Category, SubCategory, Amount FROM transactions WHERE date(date) BETWEEN date('2026-08-01') AND date('2026-12-31');
+2026-10-04 17:02:28,556 | INFO | categories.py(525) ['2026', 'Total']
+2026-10-04 17:02:28,556 | INFO | categories.py(581) cat-I004: Auto, lvl0
+2026-10-04 17:02:28,557 | INFO | categories.py(581) cat-I008: Charity, lvl0
+2026-10-04 17:02:28,561 | INFO | categories.py(581) cat-I00F: Entertainment, lvl0
+2026-10-04 17:02:28,562 | INFO | categories.py(581) cat-I01B: Financial, lvl0
+2026-10-04 17:02:28,562 | INFO | categories.py(581) cat-I029: Household, lvl0
+2026-10-04 17:02:28,563 | INFO | categories.py(581) cat-I035: Income, lvl0
+2026-10-04 17:02:28,563 | INFO | categories.py(581) cat-I03A: Insurance, lvl0
+2026-10-04 17:02:28,564 | INFO | categories.py(581) cat-I043: Medical, lvl0
+2026-10-04 17:02:35,189 | INFO | categories.py(477) _aggregate_data
+2026-10-04 17:02:35,190 | INFO | categories.py(464) SELECT Date, Alias, Category, SubCategory, Amount FROM transactions WHERE date(date) BETWEEN date('2026-08-01') AND date('2026-12-31');
+2026-10-04 17:02:35,195 | INFO | categories.py(525) ['2026', 'Total']
+2026-10-04 17:02:35,195 | INFO | categories.py(581) cat-I048: Auto, lvl0
+2026-10-04 17:02:35,200 | INFO | categories.py(581) cat-I04C: Charity, lvl0
+2026-10-04 17:02:35,200 | INFO | categories.py(581) cat-I053: Entertainment, lvl0
+2026-10-04 17:02:35,204 | INFO | categories.py(581) cat-I05F: Financial, lvl0
+2026-10-04 17:02:35,205 | INFO | categories.py(581) cat-I06D: Household, lvl0
+2026-10-04 17:02:35,209 | INFO | categories.py(581) cat-I079: Income, lvl0
+2026-10-04 17:02:35,211 | INFO | categories.py(581) cat-I07E: Insurance, lvl0
+2026-10-04 17:02:35,212 | INFO | categories.py(581) cat-I087: Medical, lvl0

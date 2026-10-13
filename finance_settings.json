@@ -1,0 +1,485 @@
+{
+    "secParams": {
+        "fileName": "D:/Documents/PyScripts3-14-7/_vfinofx1/database/test2026-p.db",
+        "cipher": "chacha20",
+        "kdf_iter": 64007,
+        "key": "fish2fry"
+    },
+    "logdir": "logs",
+    "dbdir": "database",
+    "output": "output",
+    "rules": {
+        "auto_apply": true,
+        "case_sensitive": false
+    },
+    "daterange": [
+        "2026-01-01",
+        "2026-12-31"
+    ],
+    "theme": {
+        "appearance_mode": "light",
+        "theme_name": "blue",
+        "accent_color": "#3B82F6"
+    },
+    "window": {
+        "geometry": "1200x800+100+100",
+        "maximized": false
+    },
+    "classifier": {
+        "ai_enabled": true,
+        "confidence_threshold": 0.55
+    },
+    "importing": {
+        "last_directory": null,
+        "auto_open_after_import": true
+    },
+    "logging": {
+        "level": "INFO",
+        "file": "finofx.log"
+    },
+    "ui": {
+        "show_statusbar": true,
+        "show_sidebar": true,
+        "font_scale": 1.0
+    },
+    "transWidths": {
+        "transactions": {
+            "Id": [
+                5,
+                "w",
+                false
+            ],
+            "Date": [
+                7,
+                "w",
+                false
+            ],
+            "Alias": [
+                12,
+                "w",
+                true
+            ],
+            "Number": [
+                6,
+                "e",
+                false
+            ],
+            "Type": [
+                6,
+                "w",
+                false
+            ],
+            "Amount": [
+                8,
+                "e",
+                false
+            ],
+            "Category": [
+                12,
+                "w",
+                true
+            ],
+            "SubCategory": [
+                12,
+                "w",
+                true
+            ],
+            "Notes": [
+                12,
+                "w",
+                true
+            ],
+            "Tags": [
+                12,
+                "w",
+                true
+            ],
+            "Account": [
+                15,
+                "w",
+                false
+            ],
+            "Description": [
+                12,
+                "w",
+                false
+            ],
+            "import_file_key": [
+                12,
+                "w",
+                false
+            ]
+        },
+        "accounts": {
+            "Id": [
+                5,
+                "e",
+                false
+            ],
+            "AccountID": [
+                24,
+                "w",
+                true
+            ],
+            "RoutingNumber": [
+                10,
+                "w",
+                true
+            ],
+            "Type": [
+                7,
+                "e",
+                false
+            ],
+            "Fid": [
+                12,
+                "w",
+                true
+            ],
+            "Organization": [
+                36,
+                "w",
+                true
+            ],
+            "OrganizationName": [
+                20,
+                "w",
+                true
+            ],
+            "StartDate": [
+                28,
+                "w",
+                false
+            ],
+            "EndDate": [
+                28,
+                "w",
+                false
+            ],
+            "Balance": [
+                12,
+                "w",
+                true
+            ],
+            "Encrypted": [
+                12,
+                "w",
+                true
+            ]
+        },
+        "patterns": {
+            "Id": [
+                5,
+                "e",
+                false
+            ],
+            "Alias": [
+                14,
+                "w",
+                false
+            ],
+            "Pattern": [
+                20,
+                "w",
+                false
+            ],
+            "Category": [
+                12,
+                "w",
+                false
+            ],
+            "SubCategory": [
+                12,
+                "w",
+                false
+            ],
+            "Account": [
+                10,
+                "w",
+                false
+            ]
+        },
+        "other": {
+            "Id": [
+                5,
+                "w",
+                false
+            ],
+            "Date": [
+                7,
+                "w",
+                false
+            ],
+            "Alias": [
+                12,
+                "w",
+                true
+            ],
+            "Number": [
+                6,
+                "e",
+                false
+            ],
+            "Type": [
+                6,
+                "w",
+                false
+            ],
+            "Amount": [
+                8,
+                "e",
+                false
+            ],
+            "Category": [
+                12,
+                "w",
+                true
+            ],
+            "SubCategory": [
+                12,
+                "w",
+                true
+            ],
+            "Notes": [
+                12,
+                "w",
+                true
+            ],
+            "Tags": [
+                12,
+                "w",
+                true
+            ],
+            "Account": [
+                15,
+                "w",
+                false
+            ],
+            "Description": [
+                12,
+                "w",
+                false
+            ],
+            "UID": [
+                12,
+                "w",
+                true
+            ]
+        },
+        "rules": {
+            "rule_id": [
+                5,
+                "e",
+                false
+            ],
+            "account": [
+                15,
+                "w",
+                false
+            ],
+            "pattern": [
+                20,
+                "w",
+                false
+            ],
+            "alias": [
+                12,
+                "w",
+                true
+            ],
+            "category": [
+                12,
+                "w",
+                true
+            ],
+            "subcategory": [
+                12,
+                "w",
+                true
+            ],
+            "import_file_key": [
+                15,
+                "w",
+                false
+            ],
+            "enabled": [
+                5,
+                "e",
+                false
+            ],
+            "created_at": [
+                12,
+                "w",
+                false
+            ],
+            "updated_at": [
+                12,
+                "w",
+                true
+            ]
+        },
+        "qfx": {
+            "new": [
+                5,
+                "w",
+                false
+            ],
+            "date": [
+                12,
+                "w",
+                false
+            ],
+            "alias": [
+                12,
+                "w",
+                false
+            ],
+            "number": [
+                6,
+                "e",
+                false
+            ],
+            "type": [
+                6,
+                "w",
+                false
+            ],
+            "amount": [
+                8,
+                "e",
+                false
+            ],
+            "category": [
+                12,
+                "w",
+                false
+            ],
+            "subcategory": [
+                12,
+                "w",
+                false
+            ],
+            "account": [
+                15,
+                "w",
+                false
+            ],
+            "description": [
+                30,
+                "w",
+                false
+            ],
+            "import_file_key": [
+                12,
+                "w",
+                false
+            ],
+            "fitid": [
+                12,
+                "w",
+                true
+            ]
+        }
+    },
+    "tree_colors": {
+        "leftside": {
+            "Foreground": "#000007",
+            "Background": "#ecfaff",
+            "font": [
+                "Calibri",
+                12,
+                "normal"
+            ]
+        },
+        "rightside": {
+            "Foreground": "#910b6e",
+            "Background": "#ffffce",
+            "font": [
+                "Calibri",
+                12,
+                "normal"
+            ]
+        },
+        "treeheader": {
+            "Foreground": "#078b3d",
+            "Background": "#eaffff",
+            "font": [
+                "Calibri",
+                12,
+                "normal"
+            ]
+        },
+        "selected": {
+            "Foreground": "#400000",
+            "Background": "#c0c0c0",
+            "font": [
+                "Calibri",
+                12,
+                "normal"
+            ]
+        },
+        "oddrow": {
+            "Foreground": "#400000",
+            "Background": "#eaffff",
+            "font": [
+                "Calibri",
+                12,
+                "normal"
+            ]
+        },
+        "evenrow": {
+            "Foreground": "#004000",
+            "Background": "#ddeeff",
+            "font": [
+                "Calibri",
+                12,
+                "normal"
+            ]
+        },
+        "lvl0row": {
+            "Foreground": "(0, 64, 0)",
+            "Background": "#ecfaff",
+            "font": [
+                "Calibri",
+                11,
+                "bold"
+            ]
+        },
+        "lvl1row": {
+            "Foreground": "(0, 74, 0)",
+            "Background": "#ecfaff",
+            "font": [
+                "Calibri",
+                11,
+                "normal"
+            ]
+        },
+        "lvl2row": {
+            "Foreground": "(49,98,73)",
+            "Background": "#ecfaff",
+            "font": [
+                "Calibri",
+                10,
+                "normal"
+            ]
+        },
+        "finaltotal": {
+            "Foreground": "#000000",
+            "Background": "#ecfaff",
+            "font": [
+                "Calibri",
+                12,
+                "bold"
+            ]
+        },
+        "SubTotal": {
+            "Foreground": "(105, 105, 105)",
+            "Background": "(236, 250, 255)",
+            "font": [
+                "Calibri",
+                11,
+                "bold"
+            ]
+        }
+    }
+}
